@@ -1,0 +1,694 @@
+body {
+	width: auto;
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1c1b18;
+    text-align: left;
+	font-family: Montserrat;
+}
+
+/*html {
+	display: flex;
+	justify-content: center;
+}*/
+
+header, section {
+	display: flex;
+	justify-content: center;
+}
+
+.m-w {
+	width: 1140px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.header-context {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.header-logo {
+	display: flex;
+   align-items: center;
+}
+
+.logo-img {
+	padding: 0 16px 0 0;
+}
+
+.small{
+	font-size: 100%;
+   font-weight: 400;
+}
+
+.contacs {
+	margin-right: 1rem;
+	text-align: right;
+}
+
+.contacs a {
+	text-decoration: none;
+	color: black;
+}
+
+.e-mail {
+	font-size: 13px;
+	line-height: 13px;
+}
+
+.phone-number {
+	font-weight: 900;
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.menu {
+	display: flex;
+	text-transform: uppercase;
+}
+
+.menu-item {
+	margin: 5px 8px;
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	position: relative;
+}
+
+.menu a:hover:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -5px;
+	height: 5px;
+	background-color: #eb2629;
+	transform: skewX(-45deg);
+}
+
+.first-menu-item {
+	margin: 5px 0px;
+	position: relative;
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.under_red  {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+	height: 5px;
+	background-color: #eb2629;
+	transform: skewX(-45deg);
+}
+
+.camry {
+	padding: 50px 0px;
+	background: url('kisspng-2018-toyota-camry-le-car-2018-toyota-camry-xle-201-toyota-2018-5b3add56b65980 1.png') no-repeat 100%;
+	background-position: right;
+}
+
+.section_camry {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section_camry_context h1 {
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 80px;
+	margin: 5px 0px;
+	width: 60%;
+}
+
+.section_camry_context a {
+	text-decoration: none;
+	color: black;
+}
+
+.camry_text {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	width: 38%;
+}
+
+.map {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.map p {
+	margin-left: 30px;
+}
+
+.black_background {
+/*	background: url(../img/ford-fusion-2017\ 1.png) no-repeat 100%; 
+	background-position: 0% 100%;*/
+	position: relative;
+	background-color: rgba(28, 27, 24, 1);
+	color: #fff;
+}
+
+.second_block h2{
+	font-weight: 900;
+	font-size: 42px;
+
+	color: #FFFFFF;
+}
+
+.h2_first_child {
+	width: 50%;
+}
+
+.second_block h2 span{
+	color: red;
+}
+
+.second_block_ul1{
+	display: flex;	
+	padding-left: 0;
+}
+
+
+.second_block_ul1 div{
+	margin-right: 30px;
+	background-color: #fff;
+	max-width: 373px;
+	color: black;
+}
+
+.wraper_second_block{
+	background-color: black;
+   display: flex;
+   justify-content: center;
+   height: 1255px;
+}
+
+.second_block_ul1 h3{
+	text-align: center;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 100%;
+	color: rgba(235, 38, 41, 1);
+	}
+
+.second_block_ul1 p{
+	text-align: center;
+	height: 72px;
+	font-size: 18px;
+	line-height: 133%;
+	/* or 133% */
+}
+
+.second_block_ul2{
+	display: flex;	
+	padding-left: 0;
+}
+
+.second_block_ul2 div{
+	margin-right: 30px;
+	border: 1px solid #EB2629;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.second_block_ul2 p{
+	font-weight: 900;
+   font-size: 18px;
+   line-height: 156%;
+   width: 332px;
+   height: 196px;
+   color: #FFFFFF;
+   padding-top: 99px;
+   padding-left: 38px;
+}
+
+.second_block_ul2 img{
+	margin-top: 9px;
+	margin-left: 9px;
+	height: 250px;
+	margin-top: 9px;
+	margin-left: 9px;
+	position: absolute;
+}
+
+.first_block a{
+	text-decoration: none;
+	color: black;
+}
+
+.second_block_h2_2 {
+	margin: 108px 0 22px 0;
+}
+
+.fusion {
+	position: absolute;
+	left: 0%;
+	bottom: -30%;
+}
+
+.header-checkbox h2{
+	text-align: center;
+	font-size: 3rem;
+	line-height: 1.2;
+	line-height: 56px;
+	margin: 0;
+}
+
+.header-checkbox p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 56px;
+	margin-top: 0;
+	margin-bottom: 3rem;
+}
+
+.checkbox-block {
+	max-width: 33.333333%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.context-checkbox-block{
+	position: relative;
+	background: #fff;
+    color: #1c1b18;
+    padding: 12px 20px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 25%);
+}
+
+.context-checkbox-block img{
+	position: relative;
+    width: 50px;
+    top: -30px;
+    left: 50%;
+    height: 50px;
+    border: 1px solid #eb2629;
+}
+
+.checkbox-list {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.buyout { 
+	width: 70%;
+}
+
+.buyout-h2 {
+	font-size: 2.8rem;
+	line-height: 1.2;
+	line-height: 56px;
+	margin: 0;
+}
+
+.buyout-text {
+	font-size: 33px;
+	line-height: 56px;
+	margin-top: 20px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.text-bold-red{
+	font-weight: bold;
+	color: #eb2629;
+}
+
+.passat {
+	position: relative;
+	overflow: hidden;
+}
+
+.buyout-and-border-red {
+	margin-top: 100px;
+}
+
+.header-border-red {
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 800;
+    line-height: 1.2;
+}
+
+.border-red {
+	border: 8px solid #eb2629;
+}
+
+.img-passat {
+	position: absolute;
+	right: 0%;
+    top: -10%;
+}
+
+.border-red-context {
+	padding: 48px;
+}
+
+.list-red {
+	padding-left: 0;
+    list-style: none;		
+}
+
+.list-red li {
+	position: relative;
+	font-size: 15px;
+	line-height: 24px;
+	padding-left: 18px;
+    margin: 16px 0;
+}
+
+.list-red li:before {
+	content: "";
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    background: #eb2629;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.text-red {
+	color: #eb2629;
+}
+
+.header-autocommission h2 {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: .5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.header-autocommission-text {
+	margin: 1rem 0;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.autocommission-list {
+	max-width: 84%;
+}
+
+.autocommission-list-li {
+	list-style: none;
+	margin-bottom: 1rem;
+	align-items: center;
+    display: flex;
+}
+
+.li-number {
+	font-size: 2.75rem;
+    flex-shrink: 0;
+    width: 30px;
+    margin-right: 24px;
+	color: #f7f7f7;
+    font-weight: 800;
+    text-shadow: -2px -2px 0 #eb2629,
+	2px -2px 0 #eb2629, 
+	-2px 2px 0 #eb2629, 
+	2px 2px 0 #eb2629;
+}
+
+.img-tires {
+	position: absolute;
+    top: -439px;
+    right: 4%;
+}
+
+.dark {
+	background-color: #1c1b18
+}
+
+.header-benefits h2 {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 3rem;
+}
+
+.box-benefits {
+	max-width: 33%;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	margin-bottom: 3rem;
+}
+
+.benefits-block {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.benefits-red_box {
+	border: 1px solid #eb2629;
+	text-align: center;
+	padding: 1.5rem;
+}
+
+.image-red-box {
+	max-height: 120px;
+    margin-top: -60px;
+	
+}
+
+.benefits-red_box h3{
+	text-align: left;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.benefits-red_box p {
+	text-align: left;
+}
+
+.red-car {
+	margin-left: 25%;
+	max-width: 75%;
+}
+
+.red-car-context {
+	margin-bottom: 5rem;
+}
+
+.red-car-text {
+	margin-top: 120px;
+    padding-bottom: 70px;
+	background: #fff;
+    color: #1c1b18;
+	padding: 1rem 3rem;
+}
+
+.text-first-word {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.img-red-car {
+	position: relative;
+	background-image: url(../img/pngwing\ 11.png);
+	background-repeat: no-repeat;
+	background-position: 0% 90%;
+}
+
+.red-box-text {
+	margin: -10px 50px 0px;
+	position: relative;
+	background-color: #eb2629;
+	font-size: 36px;
+	padding: 1rem 5.5rem;
+	text-align: center;
+}
+
+.keys {
+	position: absolute;
+    max-width: 250px;
+    left: 27%;
+    bottom: 2%;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.last-section {
+	padding: 48px 15px;
+	background-image: url(../img/pngwing\ 9.png);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+}
+
+.header-last-section {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.last-section-block {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.text-last-section-block {
+	padding: 12px 20px;
+}
+
+.last-section-block-context {
+	max-width: 45%;
+	margin: 15px;
+	box-shadow: 0 4px 16px rgb(0 0 0 / 15%);
+}
+
+.last-section-block-context img {
+	max-width: 120px;
+}
+
+.last-section-location {
+	display: flex;
+}
+
+.last-section-join{
+	max-width: 65%;
+	padding: 120px 25px 120px 25px;
+}
+
+.last-section-join h2 {
+	font-size: 56px;
+	text-align: left;
+	margin-top: 0px;
+}
+
+.text-join {
+	font-size: 33px;
+	text-align: left;
+}
+
+
+.adress {
+	background-color: #eb2629;
+	color: white;
+	max-width: 470px;
+	padding: 20px;
+	
+}
+
+.text-adress {
+	font-size: 25px;
+}
+
+.number {
+	display: flex;
+	max-width: 430px;
+	margin-left: 40px;
+	background: #fff;
+    color: #1c1b18;
+    padding: 12px 20px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 15%);
+	justify-content: flex-end;
+}
+
+.number a {
+	text-decoration: none;
+	color: rgba(28, 27, 24, 1);
+	font-size: 36px;
+}
+
+.number img {
+	max-height: 40px;
+    margin: 9px;
+}
+
+.map2 {
+	display: inline-flex;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+
+.text-map {
+	width: 122px;
+    flex-flow: nowrap;
+	margin-top: -50px;
+    margin-left: 8px;
+	color: rgba(28, 27, 24, 1);
+}
+
+.global-map-screenshot {
+	display: flex;
+    justify-content: center;
+}
+
+.block-end {
+	display: flex;
+    flex-direction: row;
+}
+
+.block-end-logo {
+	width: 30%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.list-block-end {
+	width: 50%;
+	display: flex;
+}
+
+.list-block-end li {
+	list-style: none;
+	margin: 5px 0;
+}
+
+.ul1-block-end {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block-end-atribute {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.number-end {
+	display: flex;
+	padding: 10px;
+}
+
+.number-end a{
+	font-size: 22px;
+	color: black;
+	text-decoration: none;
+}
+
+.text-adress-end {
+	text-align: right;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.map-to-go a {
+	text-decoration: none;
+	color: black;
+}
+
+.text-map-end {
+	margin: 0;
+}
